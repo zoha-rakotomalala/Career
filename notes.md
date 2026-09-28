@@ -7,8 +7,6 @@ Lines marked `TODO` need my own answer. Everything else is verified against revi
 - Roles / titles I'm after: Software Development Engineer (backend, distributed systems, AWS), Applied AI Engineer (agents, MCP, developer tooling), scientific software developer. Open to hybrid science-and-tech roles (CERN, OECD, French diplomatic science network).
 - Industries I prefer / avoid: prefer science, research institutions, public interest, AI labs, developer tools. Avoid: more fee-pricing plumbing; roles where the work is pure maintenance.
 - Location / remote / relocation: based in Paris. Will relocate for the right role (Geneva, Tokyo, London considered in 2026). Remote or hybrid welcome.
-- Salary range and currency: TODO. Current base in EUR; check latest payslip before quoting.
-- Start availability: TODO. French CDI, notice period applies (check contract: `Employment/` folder, kept outside this repo).
 - Visa / work authorisation: French national. EU/EEA and Switzerland without sponsorship. UK, US, Japan need sponsorship or a specific scheme (VIA for Japan, age-eligible until 28).
 
 ## Achievement stories (STAR: situation, task, action, result)
@@ -83,15 +81,42 @@ Use these for cover letters and interview prep. One per heading.
 - Skills section: reuse the three rows from the general CV (Cloud & DevOps, Programming, Languages), add an AI Engineering row for AI roles. Do not invent rows.
 - Education: keep "Haas School of Business, University of California, Berkeley" for GETT.
 
+## Talks and enablement
+- Internal Amazon conference talk on Model Context Protocol: what it is, why it matters, how to wire agents into real developer workflows (2025).
+- Recurring hands-on knowledge-sharing sessions for the org, including cross-region networking patterns (2026).
+- GenAI and agent-workflow enablement for 40+ engineers: live demos, worked examples, migration-by-example templates reused by other teams (2026).
+- Barrow: AI career-doc agent published on Amazon's internal agent registry, with an automated build pipeline (2026).
+
+## Evidence I can cite
+- Annual review Q1 2026: Meets High Bar (manager).
+- Forte review Q1 2025: Solid Strength (previous manager).
+- Verified numbers: 27h AI savings; 8 marketplaces (JP, CA, AE, IN, MX, ES, IE, IT); 92% pipeline health vs 85% target; 15+ on-call incidents, none self-caused; MCM templates about 40% complexity reduction; 82% region footprint cut; ~$48K/yr run-rate; 26% per-migration effort cut.
+- Files: `~/Career/Reviews/` (outside this repo).
+
+## Reusable paragraphs (cover letters, form boxes)
+- Self-taught path: I studied business (EDHEC, Berkeley Haas, SKKU) and taught myself software engineering alongside it: every CS course available, a distance CS audit, then a software engineering internship at Dataiku and an SDE role at Amazon.
+- Business-school communicator: my background gives me an unusual mix for an engineer. I present, write and coordinate across teams comfortably, and I am used to explaining technical tradeoffs to non-technical stakeholders.
+- AI in daily work: I build with AI coding agents every day and spend part of my time showing other engineers how to do the same (talks, hands-on sessions, reusable templates).
+- Olympics protocol (for public-sector or diplomatic roles): volunteer on the Protocol teams at Paris 2024 and Milano Cortina 2026, receiving and accompanying high-profile guests including heads of state.
+- Science motivation (for research institutions): bac S, prépa MPSI/MP, and a continued interest in AI, semiconductors, memory and life sciences.
+
+## Re-apply tracker
+| Company | Last rejection | Eligible again | Attempts on record |
+|---------|----------------|----------------|--------------------|
+| Google | 2026-09-03 (Stage 1) | ~2027-08 (12-month cooldown from 2026-08-24) | 1 (informal max ~5) |
+| OpenAI | 2026-09-03 (two roles) | No formal cooldown known. Applied again 2026-09-24 to a different profile. | 3 |
+
 ## Application log
-| Date | Company | Role | Status | Notes |
-|------|---------|------|--------|-------|
-| 2026-08-24 | Google (YouTube Knowledge, Paris) | Software Engineer | Rejected 2026-09-03 (Stage 1) | Feedback: independent coding, solution edge cases. Re-apply eligible ~2027-08 (12-month cooldown). |
-| 2026-08 | OpenAI | Codex Core Agent | Rejected 2026-09-03 | No feedback. |
-| 2026-08 | OpenAI (London) | Engineer | Rejected 2026-09-03 | No feedback. |
-| 2026-09 | Disney | Software Engineer | CV ready (TODO: submitted?) | `applications/2026-09-disney/` |
-| 2026-09 | OECD | Software Engineer | CV ready (TODO: submitted?) | `applications/2026-09-oecd/` |
-| 2026-09-17 | Meta FAIR | PhD Research Assistant (3-year) | CV ready (TODO: submitted?) | Structural stretch: requires PhD enrollment and research signal. |
-| 2026-09-19 | MEAE, Ambassade de France au Japon (VIA) | Chargée de mission scientifique, Tokyo, Jan 2027 | Docs ready (TODO: submitted on mon-vie-via?) | French CV + LM. Business France ID V255667263. Start collides with CERN. |
-| 2026-09-21 | CERN (EP-CMS-TDQ-2026-153-GRAP) | CMS Software Developer, Geneva, 24 months | Docs ready, deadline 2026-10-11 (TODO: submit) | Modern C++ required; gap stated honestly. Target start 2027-01-01. |
-| 2026-09-24 | OpenAI | Applied AI Engineer, Codex for startups | CV ready (TODO: submitted?) | Devrel-heavy. Different profile from the two rejected roles. |
+| Date | Company | Role | Status | Follow up | Notes |
+|------|---------|------|--------|-----------|-------|
+| 2026-08-24 | Google (YouTube Knowledge, Paris) | Software Engineer | Rejected 2026-09-03 (Stage 1) | none | Feedback: independent coding, solution edge cases. |
+| 2026-08 | OpenAI | Codex Core Agent | Rejected 2026-09-03 | none | No feedback. |
+| 2026-08 | OpenAI (London) | Engineer | Rejected 2026-09-03 | none | No feedback. |
+| 2026-09 | Disney | Software Engineer | Submitted, awaiting | 2026-10-15 | `applications/2026-09-disney/` |
+| 2026-09 | OECD | Software Engineer | Submitted, awaiting | 2026-10-31 | OECD hiring cycles run in weeks to months. |
+| 2026-09-17 | Meta FAIR | PhD Research Assistant (3-year) | Submitted, awaiting | 2026-10-31 | Long shot: requires PhD enrollment and research signal. Tied to PhD intake calendar. |
+| 2026-09-19 | MEAE, Ambassade de France au Japon (VIA) | Chargée de mission scientifique, Tokyo, Jan 2027 | Submitted, awaiting | 2026-10-20 | French CV + LM. Business France ID V255667263. Start collides with CERN. |
+| 2026-09-21 | CERN (EP-CMS-TDQ-2026-153-GRAP) | CMS Software Developer, Geneva, 24 months | Docs ready, deadline 2026-10-11 (TODO: submit) | 2026-10-11 | Modern C++ required; gap stated honestly. Target start 2027-01-01. No answer possible before the deadline. |
+| 2026-09-24 | OpenAI | Applied AI Engineer, Codex for startups | Submitted, awaiting | 2026-10-15 | Devrel-heavy. Different profile from the two rejected roles. |
+
+Rule: an application is "failed" only when a rejection arrives or the follow-up date passes with no answer. Not before.
