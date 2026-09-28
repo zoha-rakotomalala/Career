@@ -1,0 +1,13 @@
+# Rendered outputs (regenerate from resume.json)
+*.pdf
+*.html
+!applications/**/*.pdf
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node, if a resume theme is installed locally
+node_modules/

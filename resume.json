@@ -1,0 +1,211 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Zoha Rakotomalala",
+    "label": "Software Development Engineer @ Amazon",
+    "email": "zoha.rakotomalala@gmail.com",
+    "phone": "",
+    "url": "https://zoha-rakotomalala.github.io/",
+    "summary": "Software engineer at Amazon with a business-school background (EDHEC, UC Berkeley Haas, SKKU). Largely self-taught technically: took every data/CS-adjacent course available, filled the gaps deliberately, and moved from data-analyst internships into software engineering via Dataiku and Amazon. Comfortable with ambiguity, drawn to hard problems and new technologies. Experience across fullstack development (Java, TypeScript), AWS infrastructure-as-code, A/B experimentation, and cross-team coordination on pricing and legal-compliance features for European marketplaces.",
+    "location": {
+      "city": "Paris",
+      "countryCode": "FR"
+    },
+    "profiles": [
+      { "network": "LinkedIn", "username": "zoharak", "url": "https://www.linkedin.com/in/zoharak" },
+      { "network": "GitHub", "username": "zoha-rakotomalala", "url": "https://github.com/zoha-rakotomalala" }
+    ]
+  },
+  "work": [
+    {
+      "name": "Amazon",
+      "position": "Software Development Engineer",
+      "location": "Paris, France",
+      "url": "https://www.amazon.com",
+      "startDate": "2026-01",
+      "endDate": "",
+      "summary": "Operational excellence and infrastructure modernization in a team owning cross-marketplace seller pricing services, enabling margin-neutral price automation across global Amazon storefronts.",
+      "highlights": [
+        "Migrated and decommissioned legacy AWS resources as part of a broader infrastructure modernization effort, improving maintainability and reducing operational overhead",
+        "Developed and deployed infrastructure-as-code solutions with AWS CDK, deepening expertise in cloud-native architecture patterns and AWS best practices",
+        "Contributed to services powering automated, margin-neutral pricing for sellers expanding across international marketplaces"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "position": "Software Development Engineer",
+      "location": "Amsterdam, Netherlands",
+      "url": "https://www.amazon.com",
+      "startDate": "2024-05",
+      "endDate": "2026-01",
+      "summary": "Fullstack development (Java, TypeScript, internal Amazon stacks) in a team owning price transparency and legal compliance features for European marketplaces.",
+      "highlights": [
+        "Expanded the Omnibus directive compliance feature to the Spanish market via an A/B experiment, owning the full launch lifecycle from design to post-launch analysis",
+        "Authored the post-mortem after a legal compliance incident during the Spain launch: root cause analysis across interconnected systems, mitigation items driven to resolution",
+        "Designed the architecture for a new price history customer experience, weighing real-time computation against pre-computed approaches for latency and scalability",
+        "Identified and documented latency regression correction opportunities in the price tracker service, contributing to reliability improvements",
+        "Coordinated across three engineering teams and senior stakeholders to align technical standards and surface experiment overlap, leading to strategic project consolidation",
+        "Redesigned a core UI component of the price tracker feature to be scalable and reusable across marketplaces and languages",
+        "Presented at an internal Amazon conference in Madrid on Model Context Protocol (MCP) and its architectural implications for AI-integrated systems",
+        "Supervised a software engineering intern for 5 months: technical mentorship, design reviews, guidance on an internal operations dashboard",
+        "Served as team happiness champion, owning the cycle of team feedback surveys, analysis and action-item follow-through",
+        "Held on-call responsibilities for production systems, ensuring reliability and rapid incident response"
+      ]
+    },
+    {
+      "name": "Dataiku",
+      "position": "Software Engineer Intern",
+      "location": "Paris, France",
+      "url": "https://www.dataiku.com",
+      "startDate": "2023-07",
+      "endDate": "2023-12",
+      "summary": "Built end to end a ~1900-line feature generating and displaying foreign-key relation graphs between database tables.",
+      "highlights": [
+        "Indexed primary and foreign keys via JDBC into an ElasticSearch store",
+        "Generated graph templates in Java and rendered them through Graphviz",
+        "Post-processed the SVG in Angular/TypeScript: mass import of tables, expand/collapse of relation degrees, external table preview, zoom/pan navigation, tooltips, clustering into schema zones, state persistence across modal sessions, connected-column highlighting"
+      ]
+    },
+    {
+      "name": "Dashlane",
+      "position": "Data Analyst Intern",
+      "location": "Paris, France",
+      "url": "https://www.dashlane.com",
+      "startDate": "2022-01",
+      "endDate": "2022-06",
+      "summary": "Data analysis and visualization on Tableau over SQL Server and Amazon Redshift; communicated insights and recommended actions to stakeholders.",
+      "highlights": [
+        "Analysed the account creation flow during a New Product Introduction to detect drop-off points",
+        "Analysed sales and trial engagement touchpoints to explain month-over-month performance variations",
+        "Built a data model tracking the daily evolution of customers in trial",
+        "Built a model predicting user retention to guide the sales team",
+        "Owned QA of several data models, cross-checking Salesforce against back-office data and proposing matching improvements"
+      ]
+    },
+    {
+      "name": "Spark.do",
+      "position": "Data Analyst Intern",
+      "location": "Paris, France",
+      "url": "",
+      "startDate": "2021-07",
+      "endDate": "2021-12",
+      "summary": "Data analysis and reporting on Metabase over PostgreSQL; maintenance of the data pipeline and reportings.",
+      "highlights": [
+        "Wrote and maintained KPI queries and reportings, debugging and fixing broken reports",
+        "Improved and maintained the data pipeline",
+        "Contributed to roadmap projects and internal trainings",
+        "Tools: Metabase, PostgreSQL, Python, JavaScript, Pipedream, Airtable"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Berkeley — Haas School of Business",
+      "area": "Global Economic Transformation & Technology",
+      "studyType": "Diploma",
+      "startDate": "2022-08",
+      "endDate": "2023-05",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "EDHEC Business School",
+      "area": "Global Economic Transformation and Technology (GETT)",
+      "studyType": "Master in Management",
+      "startDate": "2019",
+      "endDate": "2023",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Université de Franche-Comté",
+      "area": "Informatique (licence, audit à distance)",
+      "studyType": "Audit / distance learning",
+      "startDate": "2021-10",
+      "endDate": "2022-05",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "SKK GSB — Sungkyunkwan University",
+      "area": "Management Studies",
+      "studyType": "Master (exchange)",
+      "startDate": "2021",
+      "endDate": "2021",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Saint-Louis",
+      "area": "Mathématiques et informatique",
+      "studyType": "Classe préparatoire",
+      "startDate": "2018",
+      "endDate": "2019",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "level": "",
+      "keywords": ["Java", "TypeScript", "JDBC", "ElasticSearch", "REST services", "Internal Amazon stacks"]
+    },
+    {
+      "name": "Frontend",
+      "level": "",
+      "keywords": ["TypeScript", "Angular", "JavaScript", "SVG manipulation", "Reusable UI components"]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "level": "",
+      "keywords": ["Amazon Web Services (AWS)", "AWS CDK", "Infrastructure as code (IaC)", "Legacy migration / decommissioning", "On-call & incident response"]
+    },
+    {
+      "name": "Experimentation & Data",
+      "level": "",
+      "keywords": ["A/B Testing", "SQL", "PostgreSQL", "SQL Server", "Amazon Redshift", "Tableau", "Metabase", "Python", "Dataiku"]
+    },
+    {
+      "name": "Architecture & AI",
+      "level": "",
+      "keywords": ["System design", "Latency/scalability tradeoffs", "Model Context Protocol (MCP)", "AI-integrated systems"]
+    },
+    {
+      "name": "Leadership & collaboration",
+      "level": "",
+      "keywords": ["Intern mentorship", "Cross-team coordination", "Post-mortems / RCA", "Team health initiatives", "Technical presentations"]
+    }
+  ],
+  "languages": [
+    { "language": "French", "fluency": "Native or bilingual" },
+    { "language": "English", "fluency": "Full professional" },
+    { "language": "Spanish", "fluency": "Elementary" },
+    { "language": "Hindi", "fluency": "Elementary" },
+    { "language": "Urdu", "fluency": "Elementary" },
+    { "language": "Gujarati", "fluency": "Elementary" }
+  ],
+  "certificates": [
+    { "name": "Dataiku Core Designer", "issuer": "Dataiku", "date": "", "url": "" },
+    { "name": "Web Development (HTML5 & CSS3)", "issuer": "", "date": "", "url": "" },
+    { "name": "Certificate of Completion — Financial Accounting Online Course", "issuer": "", "date": "", "url": "" },
+    { "name": "Milano Cortina 2026 — Volunteer", "issuer": "Milano Cortina 2026 Olympic & Paralympic Winter Games", "date": "2026", "url": "" }
+  ],
+  "projects": [],
+  "volunteer": [
+    {
+      "organization": "Milano Cortina 2026 Olympic & Paralympic Winter Games",
+      "position": "Volunteer",
+      "startDate": "2026",
+      "endDate": "2026",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "awards": [
+    { "title": "Concours de Défense et d'Illustration de la Langue Française", "date": "", "awarder": "", "summary": "" }
+  ],
+  "publications": [],
+  "interests": [],
+  "references": []
+}
