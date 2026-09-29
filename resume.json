@@ -4,7 +4,6 @@
     "name": "Zoha Rakotomalala",
     "label": "Software Development Engineer @ Amazon",
     "email": "zoha.rakotomalala@gmail.com",
-    "phone": "",
     "url": "https://zoha-rakotomalala.github.io/",
     "summary": "Studied business, taught myself software engineering, and haven't looked back. Software engineer at Amazon with a business-school background (EDHEC, UC Berkeley Haas, SKKU). Moved from data-analyst internships into software engineering via Dataiku and Amazon. Drawn to complex problems, new technologies, and work that keeps me learning. Experience across backend services (Java, TypeScript), AWS infrastructure-as-code, cloud migrations, A/B experimentation, and AI coding agents in daily engineering work.",
     "location": {
@@ -12,8 +11,16 @@
       "countryCode": "FR"
     },
     "profiles": [
-      { "network": "LinkedIn", "username": "ZohaRak", "url": "https://www.linkedin.com/in/ZohaRak" },
-      { "network": "GitHub", "username": "zoha-rakotomalala", "url": "https://github.com/zoha-rakotomalala" }
+      {
+        "network": "LinkedIn",
+        "username": "ZohaRak",
+        "url": "https://www.linkedin.com/in/ZohaRak"
+      },
+      {
+        "network": "GitHub",
+        "username": "zoha-rakotomalala",
+        "url": "https://github.com/zoha-rakotomalala"
+      }
     ]
   },
   "work": [
@@ -23,7 +30,6 @@
       "location": "Paris, France",
       "url": "https://www.amazon.com",
       "startDate": "2026-01",
-      "endDate": "",
       "summary": "Xenos / Cross-marketplace pricing, seller-facing team. Services powering automated, margin-neutral pricing for sellers expanding across international Amazon marketplaces. Focus on infrastructure modernization, cloud migrations and AI-assisted engineering.",
       "highlights": [
         "Delivered a migration workstream within the 2026 regional-exit program for pricing services: 4 backend services moved off a legacy AWS region and one legacy data-warehouse cluster deprecated, cutting the region footprint 82% and infrastructure run-rate by about $48K/year, one month ahead of target",
@@ -91,7 +97,6 @@
       "name": "Spark.do",
       "position": "Data Analyst Intern",
       "location": "Paris, France",
-      "url": "",
       "startDate": "2021-07",
       "endDate": "2021-12",
       "summary": "Data analysis and reporting on Metabase over PostgreSQL; maintenance of the data pipeline and reportings.",
@@ -111,7 +116,6 @@
       "studyType": "Diploma",
       "startDate": "2022-08",
       "endDate": "2023-05",
-      "score": "",
       "courses": [
         "Data Analytics",
         "Web Development",
@@ -130,7 +134,6 @@
       "studyType": "Master in Management, full English track",
       "startDate": "2019-09",
       "endDate": "2023",
-      "score": "",
       "courses": []
     },
     {
@@ -139,7 +142,6 @@
       "studyType": "Master (exchange semester)",
       "startDate": "2021-01",
       "endDate": "2021-05",
-      "score": "",
       "courses": []
     },
     {
@@ -148,7 +150,6 @@
       "studyType": "Audit / distance learning",
       "startDate": "2021-10",
       "endDate": "2022-05",
-      "score": "",
       "courses": []
     },
     {
@@ -157,55 +158,126 @@
       "studyType": "Classe préparatoire aux Grandes Écoles",
       "startDate": "2017",
       "endDate": "2019",
-      "score": "",
       "courses": []
     }
   ],
   "skills": [
     {
       "name": "Programming",
-      "level": "",
-      "keywords": ["Python", "Java", "TypeScript", "JavaScript", "SQL", "React Native", "Angular", "C#", "C++", "HTML5", "CSS3"]
+      "keywords": [
+        "Python",
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "SQL",
+        "React Native",
+        "Angular",
+        "C#",
+        "C++",
+        "HTML5",
+        "CSS3"
+      ]
     },
     {
       "name": "Cloud & DevOps",
-      "level": "",
-      "keywords": ["AWS (CDK, Lambda, DynamoDB, S3, CloudWatch)", "Infrastructure as code", "Cloud migrations / legacy decommissioning", "Docker", "GitHub", "CI/CD", "On-call & incident response"]
+      "keywords": [
+        "AWS (CDK, Lambda, DynamoDB, S3, CloudWatch)",
+        "Infrastructure as code",
+        "Cloud migrations / legacy decommissioning",
+        "Docker",
+        "GitHub",
+        "CI/CD",
+        "On-call & incident response"
+      ]
     },
     {
       "name": "AI Engineering",
-      "level": "",
-      "keywords": ["AI coding agents (Claude Code, Kiro, internal agents)", "Model Context Protocol (MCP)", "Agent workflows and context engineering", "LLM-assisted migration pipelines"]
+      "keywords": [
+        "AI coding agents (Claude Code, Kiro, internal agents)",
+        "Model Context Protocol (MCP)",
+        "Agent workflows and context engineering",
+        "LLM-assisted migration pipelines"
+      ]
     },
     {
       "name": "Backend",
-      "level": "",
-      "keywords": ["Java", "TypeScript", "REST services", "JDBC", "ElasticSearch", "Internal Amazon stacks"]
+      "keywords": [
+        "Java",
+        "TypeScript",
+        "REST services",
+        "JDBC",
+        "ElasticSearch",
+        "Internal Amazon stacks"
+      ]
     },
     {
       "name": "Experimentation & Data",
-      "level": "",
-      "keywords": ["A/B testing", "SQL", "PostgreSQL", "SQL Server", "Amazon Redshift", "Tableau", "Metabase", "Python", "Dataiku"]
+      "keywords": [
+        "A/B testing",
+        "SQL",
+        "PostgreSQL",
+        "SQL Server",
+        "Amazon Redshift",
+        "Tableau",
+        "Metabase",
+        "Python",
+        "Dataiku"
+      ]
     },
     {
       "name": "Architecture & collaboration",
-      "level": "",
-      "keywords": ["System design", "Latency/scalability tradeoffs", "Post-mortems / Correction of Error", "Cross-team coordination", "Intern mentorship", "Technical talks and knowledge-sharing sessions"]
+      "keywords": [
+        "System design",
+        "Latency/scalability tradeoffs",
+        "Post-mortems / Correction of Error",
+        "Cross-team coordination",
+        "Intern mentorship",
+        "Technical talks and knowledge-sharing sessions"
+      ]
     }
   ],
   "languages": [
-    { "language": "French", "fluency": "Native" },
-    { "language": "English", "fluency": "Full professional" },
-    { "language": "Spanish", "fluency": "Elementary" },
-    { "language": "Urdu", "fluency": "Elementary" },
-    { "language": "Hindi", "fluency": "Elementary" },
-    { "language": "Gujarati", "fluency": "Elementary" }
+    {
+      "language": "French",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Elementary"
+    },
+    {
+      "language": "Urdu",
+      "fluency": "Elementary"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Elementary"
+    },
+    {
+      "language": "Gujarati",
+      "fluency": "Elementary"
+    }
   ],
   "certificates": [
-    { "name": "Amazon Security Beta Programs", "issuer": "Amazon", "date": "2025", "url": "" },
-    { "name": "Dataiku Core Designer", "issuer": "Dataiku", "date": "", "url": "" },
-    { "name": "Web Development (HTML5 & CSS3)", "issuer": "", "date": "", "url": "" },
-    { "name": "Financial Accounting Online Course, Certificate of Completion", "issuer": "", "date": "", "url": "" }
+    {
+      "name": "Amazon Security Beta Programs",
+      "issuer": "Amazon",
+      "date": "2025"
+    },
+    {
+      "name": "Dataiku Core Designer",
+      "issuer": "Dataiku"
+    },
+    {
+      "name": "Web Development (HTML5 & CSS3)"
+    },
+    {
+      "name": "Financial Accounting Online Course, Certificate of Completion"
+    }
   ],
   "projects": [
     {
@@ -215,11 +287,19 @@
         "Offline-first architecture with cloud sync: Supabase auth and Postgres, Zustand and MMKV storage, an offline operation queue with conflict resolution",
         "Full test suite running in CI on GitHub Actions"
       ],
-      "keywords": ["React Native", "TypeScript", "Supabase", "Zustand", "MMKV", "GitHub Actions"],
+      "keywords": [
+        "React Native",
+        "TypeScript",
+        "Supabase",
+        "Zustand",
+        "MMKV",
+        "GitHub Actions"
+      ],
       "startDate": "2025",
-      "endDate": "",
       "url": "https://zoha-rakotomalala.github.io/Mithra/",
-      "roles": ["Solo developer"],
+      "roles": [
+        "Solo developer"
+      ],
       "entity": "Personal",
       "type": "application"
     },
@@ -227,11 +307,16 @@
       "name": "Eos, personal portfolio site",
       "description": "Scroll-driven personal site where the sky colour shifts through my career timeline. Astro, deployed on GitHub Pages.",
       "highlights": [],
-      "keywords": ["Astro", "TypeScript", "GitHub Pages"],
+      "keywords": [
+        "Astro",
+        "TypeScript",
+        "GitHub Pages"
+      ],
       "startDate": "2025-09",
-      "endDate": "",
       "url": "https://zoha-rakotomalala.github.io/",
-      "roles": ["Solo developer"],
+      "roles": [
+        "Solo developer"
+      ],
       "entity": "Personal",
       "type": "website"
     },
@@ -242,23 +327,36 @@
         "itch.io: https://zoharak.itch.io/mercurys-rise",
         "Trailer: https://youtu.be/XkSQvnWV3vE"
       ],
-      "keywords": ["C#", "Unity", "A* pathfinding"],
+      "keywords": [
+        "C#",
+        "Unity",
+        "A* pathfinding"
+      ],
       "startDate": "2023-04",
       "endDate": "2023-04",
       "url": "https://zoharak.itch.io/mercurys-rise",
-      "roles": ["Team lead", "Developer"],
+      "roles": [
+        "Team lead",
+        "Developer"
+      ],
       "entity": "UC Berkeley",
       "type": "game"
     },
     {
       "name": "2D procedural world generation",
       "description": "Data Structures course project. Procedurally generated maps with rooms, hallways, and varied terrain; session serialization and mouse/keyboard interaction.",
-      "highlights": ["Demo: https://youtu.be/hIyjMor_EPE"],
-      "keywords": ["Java"],
+      "highlights": [
+        "Demo: https://youtu.be/hIyjMor_EPE"
+      ],
+      "keywords": [
+        "Java"
+      ],
       "startDate": "2022-12",
       "endDate": "2022-12",
       "url": "https://youtu.be/hIyjMor_EPE",
-      "roles": ["Developer"],
+      "roles": [
+        "Developer"
+      ],
       "entity": "UC Berkeley",
       "type": "coursework"
     },
@@ -266,11 +364,14 @@
       "name": "Protein-to-DNA sequence transcriber",
       "description": "Genetic Data Automation course project. Probabilistic translation from amino-acid sequences to codons, with edge-case handling and validation against biological-rule checkers.",
       "highlights": [],
-      "keywords": ["Java"],
+      "keywords": [
+        "Java"
+      ],
       "startDate": "2022-12",
       "endDate": "2022-12",
-      "url": "",
-      "roles": ["Developer"],
+      "roles": [
+        "Developer"
+      ],
       "entity": "UC Berkeley",
       "type": "coursework"
     }
@@ -294,14 +395,44 @@
     }
   ],
   "awards": [
-    { "title": "Concours de Défense et d'Illustration de la Langue Française", "date": "", "awarder": "", "summary": "" }
+    {
+      "title": "Concours de Défense et d'Illustration de la Langue Française"
+    }
   ],
   "publications": [],
   "interests": [
-    { "name": "Technology", "keywords": ["Discovering new technologies, especially AI", "Coding and learning new techniques for fun"] },
-    { "name": "Reading", "keywords": ["Fantasy", "Science fiction", "Dystopias", "Non-fiction", "Sociology"] },
-    { "name": "Art", "keywords": ["Museums", "Art history", "Paintings"] },
-    { "name": "Video games", "keywords": ["RPGs", "Strategy games"] }
+    {
+      "name": "Technology",
+      "keywords": [
+        "Discovering new technologies, especially AI",
+        "Coding and learning new techniques for fun"
+      ]
+    },
+    {
+      "name": "Reading",
+      "keywords": [
+        "Fantasy",
+        "Science fiction",
+        "Dystopias",
+        "Non-fiction",
+        "Sociology"
+      ]
+    },
+    {
+      "name": "Art",
+      "keywords": [
+        "Museums",
+        "Art history",
+        "Paintings"
+      ]
+    },
+    {
+      "name": "Video games",
+      "keywords": [
+        "RPGs",
+        "Strategy games"
+      ]
+    }
   ],
   "references": []
 }

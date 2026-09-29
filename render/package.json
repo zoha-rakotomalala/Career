@@ -1,0 +1,20 @@
+{
+  "name": "career-render",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Render ../resume.json to HTML and PDF with a JSON Resume theme.",
+  "type": "module",
+  "scripts": {
+    "validate": "node validate.mjs ../resume.json",
+    "html": "node -e \"require('node:fs').mkdirSync('out',{recursive:true})\" && resumed render ../resume.json --theme jsonresume-theme-even --output out/resume.html && node -e \"const fs=require('node:fs');fs.appendFileSync('out/resume.html','<style>'+fs.readFileSync('print.css','utf8')+'</style>')\"",
+    "pdf": "npm run html && node pdf.mjs out/resume.html out/resume.pdf",
+    "build": "npm run validate && npm run pdf"
+  },
+  "devDependencies": {
+    "jsonresume-theme-even": "^0.26.1",
+    "resumed": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

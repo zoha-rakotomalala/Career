@@ -9,5 +9,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Node, if a resume theme is installed locally
-node_modules/
+# Render pipeline
+render/node_modules/
+render/out/

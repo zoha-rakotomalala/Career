@@ -1,0 +1,2 @@
+/* Appended to the rendered HTML so the PDF prints on A4 with sane margins. */
+@page { size: A4; margin: 14mm 16mm; }
