@@ -2,6 +2,7 @@
 *.pdf
 *.html
 !applications/**/*.pdf
+!cv-sources/*.html
 
 # Editor / OS noise
 .DS_Store

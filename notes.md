@@ -90,7 +90,7 @@ Use these for cover letters and interview prep. One per heading.
 ## Evidence I can cite
 - Annual review Q1 2026: Meets High Bar (manager).
 - Forte review Q1 2025: Solid Strength (previous manager).
-- Verified numbers: 27h AI savings; 8 marketplaces (JP, CA, AE, IN, MX, ES, IE, IT); 92% pipeline health vs 85% target; 15+ on-call incidents, none self-caused; MCM templates about 40% complexity reduction; 82% region footprint cut; ~$48K/yr run-rate; 26% per-migration effort cut.
+- Verified numbers: 27h AI savings; 8 marketplaces (JP, CA, AE, IN, MX, ES, IE, IT); 92% pipeline health vs 85% target; 15+ on-call incidents, none self-caused; MCM templates about 40% complexity reduction; 82% region footprint cut; ~$48K/yr run-rate; 26% per-migration effort cut; Redshift descale in the Dublin-exit migration: ~15% data footprint cut, ~€135K/yr saved (2025, confirmed 2026-09-29).
 - Files: `~/Career/Reviews/` (outside this repo).
 
 ## Reusable paragraphs (cover letters, form boxes)
@@ -109,6 +109,8 @@ Use these for cover letters and interview prep. One per heading.
 ## Application log
 | Date | Company | Role | Status | Follow up | Notes |
 |------|---------|------|--------|-----------|-------|
+| 2026-04 | Pasqal | Software Engineer | Failed (interview stage) | none | Prep notebooks in `interview-prep/pasqal-2026-04/`. |
+| 2026-07-05 | ESA (Req. 20679) | Junior Professional, AI/ML Software Engineering | Rejected | none | `applications/2026-07-esa-junior-professional-ai-ml/`. Q13 answered No on purpose (no production ML lifecycle work). |
 | 2026-08-24 | Google (YouTube Knowledge, Paris) | Software Engineer | Rejected 2026-09-03 (Stage 1) | none | Feedback: independent coding, solution edge cases. |
 | 2026-08 | OpenAI | Codex Core Agent | Rejected 2026-09-03 | none | No feedback. |
 | 2026-08 | OpenAI (London) | Engineer | Rejected 2026-09-03 | none | No feedback. |

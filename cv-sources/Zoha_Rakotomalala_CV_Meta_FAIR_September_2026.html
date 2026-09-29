@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zoha Rakotomalala — CV</title>
+<style>
+  :root{
+    --accent:#871775;
+    --ink:#1f2328;
+    --muted:#5c636b;
+    --rule:#d8d0d6;
+    --page: 21cm;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#f2f2f4;color:var(--ink);
+    font-family:"Helvetica Neue",Arial,"Segoe UI",system-ui,sans-serif;
+    font-size:10px;line-height:1.27;-webkit-font-smoothing:antialiased}
+  .page{width:var(--page);min-height:29.7cm;margin:14px auto;background:#fff;
+    padding:1.15cm 1.25cm 1cm;box-shadow:0 2px 14px rgba(0,0,0,.14)}
+  a{color:var(--accent);text-decoration:none}
+
+  header{text-align:center;margin-bottom:6px}
+  h1{font-weight:300;font-size:27px;letter-spacing:.5px}
+  h1 b{font-weight:700}
+  .contact{color:var(--muted);font-size:10px;margin-top:4px}
+  .contact a{color:var(--muted)}
+  .tagline{text-align:center;font-style:italic;color:var(--muted);
+    font-size:10px;max-width:16.5cm;margin:7px auto 2px;line-height:1.4}
+
+  section{margin-top:9px}
+  h2{color:var(--accent);font-size:12.5px;font-weight:700;letter-spacing:.4px;
+    border-bottom:1.4px solid var(--rule);padding-bottom:2px;margin-bottom:6px}
+
+  .skills{display:grid;grid-template-columns:max-content 1fr;gap:2px 14px}
+  .skills dt{font-weight:700;color:var(--ink)}
+  .skills dd{color:var(--muted)}
+
+  .entry{margin-bottom:5px}
+  .row{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+  .role{font-weight:700}
+  .org{font-weight:400;color:var(--muted)}
+  .where,.when{color:var(--muted);font-style:italic;white-space:nowrap;font-size:9.5px}
+  .sub{display:flex;justify-content:space-between;align-items:baseline;
+    color:var(--muted);font-size:9.5px;margin-top:1px}
+  .sub .lbl{font-variant:small-caps;letter-spacing:.4px}
+  ul{list-style:none;margin:3px 0 0}
+  ul li{position:relative;padding-left:11px;margin-bottom:1px}
+  ul li::before{content:"–";position:absolute;left:0;color:var(--accent)}
+  ul ul{margin:1px 0 0}
+  ul ul li::before{content:"·"}
+  .deg{margin-bottom:4px}
+  .deg .row{align-items:baseline}
+  .deg em{color:var(--muted)}
+  .courses{color:var(--muted);margin-top:2px}
+
+  @page{size:A4;margin:0}
+  @media print{
+    html,body{background:#fff;font-size:9.3px}
+    .page{margin:0;box-shadow:none;width:auto;min-height:auto;padding:1cm 1.15cm}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Zoha <b>Rakotomalala</b></h1>
+    <div class="contact">
+      <a href="mailto:zoha.rakotomalala@gmail.com">zoha.rakotomalala@gmail.com</a> ·
+      <a href="https://github.com/zoha-rakotomalala">github.com/zoha-rakotomalala</a> ·
+      <a href="https://www.linkedin.com/in/ZohaRak">linkedin.com/in/ZohaRak</a>
+    </div>
+    <p class="tagline">Software engineer with a mathematics and data background, drawn to machine learning
+      and the science behind intelligent systems. I like hard problems, new methods, and turning ideas
+      into things that work.</p>
+  </header>
+
+  <section>
+    <h2>Skills</h2>
+    <dl class="skills">
+      <dt>Machine Learning &amp; Data</dt><dd>Classical ML (decision trees, classification) · scikit-learn · pandas · Dataiku (Core Designer) · statistics &amp; data modeling · SQL · Amazon Redshift · ElasticSearch</dd>
+      <dt>Programming</dt><dd>Python · C++ · Java · TypeScript · JavaScript · SQL · React Native · Angular · C# · HTML5 · CSS3</dd>
+      <dt>Cloud &amp; DevOps</dt><dd>AWS (CDK, Lambda, DynamoDB, S3, CloudWatch) · Docker · GitHub · CI/CD</dd>
+      <dt>Languages</dt><dd>French · English · Spanish · Urdu · Hindi</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Work Experience</h2>
+
+    <div class="entry">
+      <div class="row"><span class="role">Software Development Engineer <span class="org">· Amazon</span></span></div>
+
+      <div class="sub"><span class="lbl">Xenos / CrossMarket Pricing · Seller-facing team</span>
+        <span class="where">Paris, France&nbsp;&nbsp;|&nbsp;&nbsp;Jan 2026 – Present</span></div>
+      <ul>
+        <li>Used <b>AI coding agents</b> (Claude, Kiro, internal tooling) with earlier work as context to run backend migrations in parallel, <b>cutting per-migration effort about 26%</b></li>
+        <li>Delivered a migration workstream in the 2026 regional-exit program for pricing services (4 backend services moved off a legacy AWS region, one legacy data-warehouse cluster deprecated), <b>cutting the region footprint 82%</b>, <b>one month ahead of target</b></li>
+        <li>Re-platformed fee computation onto a new <b>centralized fee engine</b> with reusable cross-region networking constructs</li>
+      </ul>
+
+      <div class="sub" style="margin-top:4px"><span class="lbl">Price Perception · Customer-facing team</span>
+        <span class="where">Amsterdam, Netherlands&nbsp;&nbsp;|&nbsp;&nbsp;May 2024 – Dec 2025</span></div>
+      <ul>
+        <li>Designed architecture for a new price-history experience, evaluating tradeoffs between <b>real-time computation and pre-computed approaches</b> for latency</li>
+        <li>Launched feature experiments using <b>A/B testing</b> to measure customer impact; authored a <b>Correction of Error</b>, driving root-cause analysis across systems</li>
+        <li>Presented at an internal conference on <b>Model Context Protocol</b> and its implications for AI systems; supervised a software engineering intern for 5 months</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row"><span class="role">Software Engineering Intern <span class="org">· Dataiku</span>
+        &nbsp;<a href="https://youtu.be/55iVW6ja0eQ">video demo</a></span>
+        <span class="when">Paris, France&nbsp;&nbsp;|&nbsp;&nbsp;Jul 2023 – Dec 2023</span></div>
+      <ul>
+        <li>Built a 1900-line feature for a data-science platform, generating foreign-key relation graphs across tables: indexed keys with JDBC into ElasticSearch, generated the graph with Graphviz, and built an Angular component to explore it interactively</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row"><span class="role">Data Analyst Intern <span class="org">· Dashlane / Spark.do</span></span>
+        <span class="when">Paris, France&nbsp;&nbsp;|&nbsp;&nbsp;Jul 2021 – Jun 2022</span></div>
+      <ul>
+        <li>Built a <b>predictive model for user retention</b> to guide the sales team; ran data analysis, modeling, and visualization with Tableau, SQL Server, and Amazon Redshift</li>
+        <li>Automated weekly performance reports with the Metabase and Airtable APIs, <b>cutting preparation time 50%</b></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Selected Projects</h2>
+    <div class="entry">
+      <div class="row"><span class="role">Loan-Default Prediction — Machine Learning (Python)</span>
+        <span class="when">2023</span></div>
+      <ul>
+        <li>Trained a <b>decision-tree classifier on ~208K loan records</b>; feature engineering, validation, and threshold tuning <b>lifted recall from 0.29 to 0.55</b>. Dataiku Core Designer certified</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="role">Protein-to-DNA Sequence Transcriber (Java)</span>
+        <span class="when">Dec 2022</span></div>
+      <div class="sub"><span>Genetic Data Automation course</span></div>
+      <ul><li>Probabilistic translation from amino-acid sequences to codons, with edge-case handling and validation against biological-rule checkers</li></ul>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="role">Palette — Cross-Platform Mobile App (React Native / TypeScript)</span>
+        <span class="when">2025 – Present</span></div>
+      <div class="sub"><span>Personal side project &nbsp;·&nbsp;
+        <a href="https://github.com/zoha-rakotomalala/Mithra">repository</a> ·
+        <a href="https://zoha-rakotomalala.github.io/Mithra/">site</a></span></div>
+      <ul>
+        <li>iOS and Android app searching <b>14 museum APIs</b>, offline-first with cloud sync (Supabase, Zustand, MMKV, conflict resolution); full test suite in CI on GitHub Actions</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="role">2D Procedural World Generation (Java)</span>
+        <span class="when">Dec 2022</span></div>
+      <div class="sub"><span>Data Structures course &nbsp;·&nbsp; <a href="https://youtu.be/hIyjMor_EPE">demo</a></span></div>
+      <ul><li>Procedurally generated maps with rooms, hallways, and varied terrain; session serialization and mouse/keyboard interaction</li></ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+
+    <div class="deg">
+      <div class="row"><span class="role">Lycée Saint-Louis — CPGE MPSI / MP</span>
+        <span class="when">2017 – 2019</span></div>
+      <div class="sub"><span class="lbl">Intensive two-year preparatory classes for the competitive entry exams to top French engineering schools (Grandes Écoles)</span></div>
+      <ul>
+        <li>Advanced <b>mathematics, physics, chemistry, and computer science</b> (MPSI then MP) — the applied-mathematics grounding behind my technical work</li>
+      </ul>
+    </div>
+
+    <div class="deg">
+      <div class="row"><span class="role">Triple Degree — EDHEC | SKK GSB | UC Berkeley</span>
+        <span class="when">Sep 2019 – 2023</span></div>
+      <div class="sub"><span>Global Economic Transformation &amp; Technology (GETT)</span></div>
+      <ul>
+        <li><b>Haas School of Business, University of California</b>, Berkeley, USA — Diploma in Global Economic Transformation and Technology <em>(Aug 2022 – May 2023)</em></li>
+        <li><b>SKK GSB, Sungkyunkwan University</b>, Seoul, Republic of Korea — Master in Management Studies <em>(Jan – May 2021)</em></li>
+        <li><b>EDHEC Business School</b>, Paris, France — Master in Management, Full English track <em>(Sep – Dec 2020)</em></li>
+      </ul>
+      <div class="courses"><b>Relevant courses:</b> AI &amp; ML for Business, Data Science Applied to Finance, Data Structures, Data Analytics, Genetic Data Automation, Introduction to C++ and Python, Web Development</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Interests</h2>
+    <dl class="skills">
+      <dt>Technology</dt><dd>Discovering new techniques, especially in AI and machine learning; coding and learning for fun</dd>
+      <dt>Reading</dt><dd>Across genres: fantasy, science fiction, dystopias, non-fiction, and sociology</dd>
+      <dt>Art</dt><dd>Museums, art history, and paintings</dd>
+      <dt>Video Games</dt><dd>RPGs and strategy games</dd>
+    </dl>
+  </section>
+
+</div>
+</body>
+</html>
