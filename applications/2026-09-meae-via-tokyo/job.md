@@ -8,3 +8,5 @@
 - Angle: complete fit. Love of science (bac S, prépa MPSI/MP), current AI/SDE work, business-school soft skills, tech watch, multicultural (Berkeley, Seoul, Japan trip), Olympics Protocol experience.
 - Files: French CV + LM, one page each, imposed names `RAKOTOMALALA Zoha CV.pdf` / `RAKOTOMALALA Zoha LM.pdf`.
 - Verify if asked: the LM says French and American heads of state; keep only if I handled both personally.
+
+Note: the two PDFs in this folder are redacted copies. Postal address and phone number were removed from the header before publishing; the versions submitted to Business France carried them.
